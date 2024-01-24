@@ -12,7 +12,7 @@ mongoose.connect(CONNECTION_URL,
         useNewUrlParser:true
     })
 
-    //con lo que escribo abajo indico que la base de datos se va a llamar Products, fijarme que le agrega una "s" mongo, es decir lo pluraliza, si yo no quiero que lo pluralize tengo que poner en un tercer parametro Products , es decir despues de } agregar una coma y poner Products. Es decir ponemos el nombre de la coleccion nosotros por defecto
+    
 const Product = mongoose.model('Poquemon',{
     nombre : String,
     tipo: String,

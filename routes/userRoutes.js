@@ -1,7 +1,7 @@
 const express = require ('express');
 const router = express.Router();
 
-//!esto es lo que voy a agregar ahora 
+
 const userController = require('../dao/controllers/userController');
 
 
@@ -20,7 +20,7 @@ router.get('/', async (req,res)=>{
 
 
 
-//esta es la ruta que voy a agregar 
+
 router.post('/crear', userController.crearUsuario);
 
 

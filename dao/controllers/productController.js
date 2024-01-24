@@ -12,5 +12,5 @@ const createProduct =async (product) => {
 
 module.exports = {
     createProduct,
-    // otras funciones relacionadas con productos si es necesario
+    
 };
